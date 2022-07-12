@@ -1,0 +1,75 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hii",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Helo",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What can i do for do?",
+        "What kinds of work you will do?"
+      ],
+      "responses": [
+         
+        "We are helping for inquire for details of our collage"
+       
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in ccet",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered"
+    ],
+    "responses": [
+        "CCET offers Computer Engineering, Electronics and Communication Engineering, Civil Engineering and Mechanical Engineering."
+    ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        
+        "All the best for yout future"
+      ]
+    }
+  ]
+}
